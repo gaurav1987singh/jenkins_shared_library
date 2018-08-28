@@ -1,4 +1,4 @@
-def helloFromSharedLibrary(String greetings){
+def helloFromSharedLibrary(){
  
   sh """
     echo "Greetings from HelloFromShared_library"
