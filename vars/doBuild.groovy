@@ -1,9 +1,9 @@
 def call(String workspace ){
  
   sh """
-    cd "${workspace}/sample_javaProject"
+    cd "${workspace}"
     echo "Start Build"
-    ./gradlew build -x test
+    #./gradlew build -x test
   """
 }
 
