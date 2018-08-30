@@ -6,6 +6,6 @@ def call() {
 
   
   def properties = readProperties file:"${scriptsPath}/Jenkins/test_builds.properties"
-  retrun properties
+  return properties
 }
 
