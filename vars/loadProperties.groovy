@@ -2,10 +2,10 @@ def call() {
 
   def scriptsPath = ''
  
-  scriptsPath = '../Jenkins/test_builds.properties'
+  scriptsPath = '../Jenkins'
 
   
-  def properties = readProperties file:"$scriptPath"
+  def properties = readProperties file:"$scriptsPath/test_builds.properties"
   return properties
 }
 
